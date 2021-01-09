@@ -63,6 +63,7 @@ Route::post('getDeliveryFee','API\DeliveryController@deliveryFee');
 //search
 //earlier route name was searchProducts
 Route::post('getProduct','API\DBController@search');
+Route::post('searchProducts','API\DBController@search');
 
 // forget password
 Route::post('forgotPassword', 'Auth\ForgotPasswordController@getResetToken');
@@ -76,7 +77,7 @@ Route::group(['middleware' => 'auth:api'], function(){
     //details edit
     Route::post('updateProfile', 'API\UserController@updateProfile');
     Route::post('uploadProfileImage', 'API\UserController@uploadProfileImage');
-    
+
     //feedback
     Route::post('submitFeedback','API\DBController@submitFeedback');
     //orders

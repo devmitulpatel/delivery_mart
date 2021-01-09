@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use TCG\Voyager\Facades\Voyager;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,10 +28,10 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::group(['prefix' => 'admin','middleware' => 'auth'], function () {
-    
+
     Route::post('deliveryFeeModify','HomeController@deliveryFeeModify');
     Route::get('reports','ChartController@index');
     Route::get('daily-report','ChartController@daily_report');
-}); 
+});
 Route::get('sendsms/{order_id}','SMSandNotificationController@sendUpdate')->name('sendSMS');
 
