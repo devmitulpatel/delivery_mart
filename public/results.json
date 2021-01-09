@@ -1,0 +1,23 @@
+{
+    "id": 131,
+    "user_id": 20,
+    "delivery_boy_id": 27,
+    "created_at": "2020-12-05T08:29:09.000000Z",
+    "updated_at": "2020-12-05T09:32:49.000000Z",
+    "status": "ASSIGNED",
+    "signature_customer": null,
+    "transaction_id": "45",
+    "address": "221 baker street",
+    "payment_mode": "cash",
+    "recipient_name": "gh",
+    "recipient_phone": "tfgyh",
+    "total_amount": 45,
+    "delivery_amount": 62,
+    "lat": null,
+    "lng": null,
+    "verification_code": "456",
+    "delivery_date": "2000-12-04",
+    "package": null,
+    "partner_id": 71,
+    "assign": "ASSIGN NOW"
+}

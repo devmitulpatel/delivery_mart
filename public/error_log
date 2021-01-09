@@ -1,0 +1,2 @@
+[08-Jun-2020 12:47:26 Asia/Kolkata] PHP Fatal error:  Class 'ConsoleTVs\Charts\Classes\Chartjs\Chart' not found in /home/u376419006/domains/dtechadminpanels.xyz/public_html/delivery/app/Charts/UserChart.php on line 7
+[08-Jun-2020 16:48:14 Asia/Kolkata] PHP Fatal error:  Class 'ConsoleTVs\Charts\Classes\Chartjs\Chart' not found in /home/u376419006/domains/dtechadminpanels.xyz/public_html/delivery/app/Charts/UserChart.php on line 7
